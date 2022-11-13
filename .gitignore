@@ -264,7 +264,17 @@ Temporary Items
 
 # SageMath parsed files
 
+<<<<<<< Updated upstream
 # Environments
+=======
+# dotenv
+.env
+
+# # virtualenv
+# .venv
+# venv/
+# ENV/
+>>>>>>> Stashed changes
 
 # Spyder project settings
 
