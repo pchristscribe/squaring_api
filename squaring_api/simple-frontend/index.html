@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+    <title>API Frontend</title>
+</head>
+<body onload="get_hello()">
+    <div class="flex-container">
+        <div class="header">
+            <h2>Simple API Frontend</h2>
+        </div>
+    
+        <div class="text">
+            <p id="text-result"><!--This paragraph will be populated with text via javascript--></p>
+            <p>Welcome! This page is meant to be used as a tester for a simple API.</p>
+            <p>Enter a number below, and that number squared (multiplied by itself) will be returned to you.</p>
+        </div>
+        <div class="form">
+            <form method="get">
+                <label for="number">Enter a number to be squared:</label><br>
+                <input type="text" id="number" name="number" value="10"><br>
+                <button id="submit" name="submit" type="button" class="glow-on-hover" onclick="get_square()">Submit</button>
+            </form> 
+        </div>
+        <div>
+            <p id="result"><!--This paragraph will be populated with the answer via javascript--></p>
+        </div>
+    </div>
+</body>
+</html>
